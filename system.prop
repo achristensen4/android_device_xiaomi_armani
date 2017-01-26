@@ -12,13 +12,9 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 persist.sys.ssr.restart_level=3
-#persist.radio.ramdump_sdcard=1
 ril.subscription.types=RUIM
 DEVICE_PROVISIONED=1
 persist.radio.msgtunnel.start=false
-
-# Open market handset
-persist.omh.enabled=true
 
 # Enable DSDS
 persist.radio.multisim.config=dsds
@@ -44,7 +40,7 @@ ro.vendor.extension_library=/vendor/lib/libqc-opt.so
 persist.timed.enable=true
 
 # Audio
-ro.qc.sdk.audio.ssr=false
+ro.qc.sdk.audio.ssr=true
 ro.qc.sdk.audio.fluencetype=fluence
 
 # CNE module
@@ -57,6 +53,6 @@ persist.gps.qc_nlp_in_use=0
 ro.gps.agps_provider=1
 
 # Recovery
-ro.cwm.enable_key_repeat=true
+ro.cwm.enable_key_repeat=false
 ro.cwm.forbid_mount=/firmware,/persist
 ro.cwm.forbid_format=/boot,/firmware,/persist
